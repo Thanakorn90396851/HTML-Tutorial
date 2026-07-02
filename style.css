@@ -4,20 +4,71 @@
     box-sizing: border-box;
 }
 
+@keyframes rgb {
+    0%   { color: red; }
+    20%  { color: orange; }
+    40%  { color: yellow; }
+    60%  { color: lime; }
+    80%  { color: cyan; }
+    100% { color: magenta; }
+}
+
 :root {
     --bg-color: #0b0e14;
     --h1-color: red;
-    --card-bg: rgba(22, 27, 34, 0.7);
+    --card-bg: rgba(24, 23, 23, 0.349);
     --border: rgba(255, 255, 255, 0.1);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     background-color: var(--bg-color);
     color: #ffffff;
+    scroll-behavior: smooth;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.github-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    transform: translateY(-2px);
+}
+
+.github-link img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease;
+}
+
+.github-link:hover img {
+    filter: brightness(0) saturate(100%) invert(41%) sepia(96%) saturate(7482%) hue-rotate(188deg) brightness(100%) contrast(101%);
+}
 .card {
     display: flex;
     flex-direction: column;
@@ -41,6 +92,7 @@ body {
 h1 {
     color: var(--h1-color);
     font-size: 2.5em;
+     animation: rgb 10s linear infinite;
 }
 
 h2 {
@@ -116,4 +168,13 @@ pre {
     background-color: #4c76ff;
     box-shadow: 0 0 10px rgba(76, 168, 255, 0.5);
     text-shadow: 0 0 5px #ffffff;
+}
+
+.learn {
+    color: #0e551f;
+    text-decoration: none;
+}
+
+.learn:hover {
+    color: #068a25;
 }
