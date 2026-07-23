@@ -50,7 +50,6 @@ nav {
   padding: 5px 30px;
   background-color: #14141450;
   border-bottom: 1px solid var(--border);
-  
 }
 
 .ul-format {
@@ -283,16 +282,14 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .format-container {
   display: flex;
   justify-content: center;
-
 }
 
-.format-box{
+.format-box {
   padding: 20px;
   width: 1400px;
   border: 1px solid var(--border);
@@ -310,7 +307,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
-
 }
 
 .card-header {
@@ -339,7 +335,7 @@ p {
   background-color: #00040e;
 }
 
-.space-text  { 
+.space-text {
   display: grid;
   grid-template-columns: 100px 1fr;
   margin: 12px;
@@ -354,4 +350,20 @@ p {
 
 .list-check {
   list-style-type: none;
+}
+.codebox {
+  padding: 1px;
+  background-color: #b4d8f5;
+  border-radius: 3px;
+  color: #2563eb;
+  font-family: Consolas, monospace;
+}
+
+.bg-circle {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #2563eb;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
