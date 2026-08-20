@@ -199,6 +199,11 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+
+.left-content .box-body1 a:hover {
+    color: red;
+}
+
 .left-content .box-body2 {
     padding: 20px;
 }
@@ -367,6 +372,7 @@ body {
     color: #000000;
     font-size: 14px;
 }
+
 
 /* ===================================
             footer section
