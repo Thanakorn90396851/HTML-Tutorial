@@ -1,342 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="HTML Tutorial">
-        <title>HTML Tutorial - 684259039</title>
-        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Tutorial">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
-
 <body>
-        <div class="card">
-                <h1 class="h1main">
-                        HTML Tutorial
-                </h1>
-                <hr>
-                <p>Welcome to the HTML tutorial. Click on the topics below to start learning:</p>
-                <h2 id="Topics" class="h2main">
-                        Topics
-                </h2>
-                <div class="textarea">
-                        <ul>
-                                <li><a href="#Introduction">Introduction to HTML</a></li>
-                                <li><a href="#Structure">HTML Document Structure</a></li>
-                                <li><a href="#Heading">Heading</a></li>
-                                <li><a href="#Paragraph">Paragraph</a></li>
-                                <li><a href="#Text Formatting">Text Formatting</a></li>
-                                <li><a href="#Creating Links">Creating Links</a></li>
-                                <li><a href="#Lists (Ordered and Unordered)">Lists (Ordered and Unordered)</a></li>
-                                <li><a href="#Adding Images">Adding Images</a></li>
-                                <li><a href="#Creating Tables">Creating Tables</a></li>
-                                <li><a href="#HTML Forms">HTML Forms</a></li>
-                                <li><a href="#Embedding Multimedia">Embedding Multimedia (Audio & Video)</a></li>
-                                <li><a href="#Semantic HTML">Semantic HTML</a></li>
-                        </ul>
+    <div class="container">
+        <header class="site-header">
+            <div class="desktop-nav">
+                <div class="desktopbrand">
+                    <h1>Learn HTML</h1>
                 </div>
-                <h2 id="Introduction" class="h2main">
-                        Introduction to HTML
-                </h2>
-                <pre>
-- HTML stands for Hyper Text Markup Language
-- HTML is the standard markup language for creating Web pages
-- HTML describes the structure of a Web page
-- HTML consists of a series of elements
-- HTML elements tell the browser how to display the content
-- HTML elements are represented by tags
-- HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
-- Browsers do not display the HTML tags, but use them to render the content of the page
-- HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages
-- HTML is not a programming language, but a markup language </pre>
 
-                <a href="#Topics" class="btn">Back to Topics</a>
+                <nav class="maindesktop-nav">
+                    <ul class="desktopnav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="introduction.html">Introduction</a></li>
+                        <li><a href="#">Practice</a></li>
+                    </ul>
+                </nav>
 
-                <h2 id="Structure" class="h2main">
-                        HTML Document Structure
-                </h2>
-                <p>
-                        An HTML document has the following basic structure...
-                </p>
-                <pre>
-HTML document has the following basic structure...
-คําอธิบาย:
-&lt;DOCTYPE html&gt;: ระบุว่าเป็นเอกสาร HTML5
-&lt;html &gt;: เป็นรากของเอกสาร HTML ทั้งหมด
-&lt;head &gt;: ส่วนที่ใช้เก็บข้อมูลเมตา เช่น 
-&lt; ชื่อหน้าเว็บ &lt;
-&lt;body &gt;: ส่วนที่จะแสดงผลบนหน้าเ
-องค์ประกอบส าคัญของ HTML
-แท็ก (Tags):
-- แท็กเริ่มต้น (Opening Tag): เช่น
-- แท็กปิด (Closing Tag): เช่น</pre>
+                <div class="searchandcontact">
+                    <div class="search-box">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="search-icon"
+                        >
+                            <path d="m21 21-4.34-4.34"/>
+                            <circle cx="11" cy="11" r="8"/>
+                        </svg>
 
-                <a href="#Topics" class="btn">Back to Topics</a>
+                        <input
+                            class="search-input"
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search..."
+                        >
+                    </div>
 
-                <h2 id="Heading" class="h2main">
-                        <a href="heading2.html" class="link-page">Heading</a>
-                </h2>
-                <pre>
-workshop
-HTML headings are defined with the  to  tags...
-- &lt;h1&gt;: Heading 1
-- &lt;h2&gt;: Heading 2
-- &lt;h3&gt;: Heading 3
- - &lt;h4&gt;: Heading 4
- - &lt;h5&gt;: Heading 5
- - &lt;h6&gt;: Heading 6</pre>
+                    <div class="contact">
+                        <a class="contact-btn" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
 
-                <a href="#Topics" class="btn">Back to Topics</a>
+            <div class="mobile-nav">
+                <div class="mobilebrand">
+                    <h1>Learn HTML</h1>
+                </div>
 
-                <h2 id="Paragraph" class="h2main">
-                        Paragraph
-                </h2>
-                <pre>
-Paragraph
-workshop
-HTML paragraphs are defined with the <p> tag...
- - &lt;p&gt;: Paragraph</pre>
+                <div class="searchandcontact">
+                    <div class="search-box">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="search-icon"
+                        >
+                            <path d="m21 21-4.34-4.34"/>
+                            <circle cx="11" cy="11" r="8"/>
+                        </svg>
 
-                <a href="#Topics" class="btn">Back to Topics</a>
+                        <input
+                            class="search-input"
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search..."
+                        >
+                    </div>
+                </div>
 
-                <h2 id="Text Formatting" class="h2main">
-                        <a href="textformatting2.html" class="link-page">Text Formatting</a>
-                </h2>
-                <pre>
-workshop
+                <button class="mobilemenu-btn" id="menuBtn">
+                    <span class="menu-icon">☰</span>
+                </button>
+                
+            </div>
 
-HTML provides various elements to format text...
-- &lt;h1&gt; to &lt;h6&gt;: Headings
-- &lt;p&gt;: Paragraph
-- &lt;pre&gt;: Preformatted text
-- &lt;b&gt;: Bold text
-- &lt;strong&gt;: Important text
-- &lt;i&gt;: Italic text
-- &lt;em&gt;: Emphasized text
-- &lt;u&gt;: Underline text
-- &lt;ins&gt;: Inserted text
-- &lt;del&gt;: Deleted text
-- &lt;s&gt;: Strikethrough text
-- &lt;strike&gt;: Strikethrough text
-- &lt;small&gt;: Smaller text
-- &lt;big&gt;: Big text
-- &lt;mark&gt;: Marked/highlighted text
-- &lt;sub&gt;: Subscript text
-- &lt;sup&gt;: Superscript text
-- &lt;blockquote&gt;: Block quotation
-- &lt;q&gt;: Inline quotation
-- &lt;code&gt;: Code snippet</pre>
+            <div class="mobile-menu" id="mobileMenu">
+                <nav>
+                    <ul class="mobilenav-list">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#">Practice</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li> 
+                    </ul>
+                </nav>
+                
+            </div>
+        </header>
 
-                <a href="#Topics" class="btn">Back to Topics</a>
+        <section class="main-content">
+            <div class="text-content">
+                <div class="badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="14" 
+                        height="14" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        class="lucide lucide-code-icon lucide-code"
+                    >
+                        <path d="m16 18 6-6-6-6"/>
+                        <path d="m8 6-6 6 6 6"/>
+                    </svg>
+                    <span>Basic HTML</span>
+                </div>
+                <div class="impor-content">
+                    <h1>เรียนรู้เว็บไซต์เบื้องต้น<br><span>{ Website Development Basics }</span></h1>
+                    <p>ก้าวแรกสู่การเป็นนักพัฒนาเว็บไซต์ เริ่มต้นด้วยการเรียนรู้โครงสร้างพื้นฐานด้วย HTML<br>อย่างถูกต้องและเป็นระบบ พร้อมแบบฝึกหัดที่ให้คุณลงมือทำจริง</p>
+                </div>
+                <button class="learning-btn">
+                    <a href="">เริ่มต้นบทเรียนแรก</a>
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="20" 
+                        height="20" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        class="lucide lucide-arrow-right-icon lucide-arrow-right"
+                        >
+                        <path d="M5 12h14"/>
+                        <path d="m12 5 7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
 
+            <div class="codebox-content">
+                <div class="code-window">
+                    <div class="window-bar">
+                        <div class="traffic-lights">
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                        </div>
+                        <span class="window-title">index.html</span>
+                    </div>
+                    <div class="code-editor">
+                        <div class="code-line"><span class="tag">&lt;!DOCTYPE html&gt;</span></div>
+                        <div class="code-line"><span class="tag">&lt;html</span> <span class="attribute">lang</span>=<span class="string">"th"</span><span class="tag">&gt;</span></div>
+                        <div class="code-line"><span class="tag">&lt;head&gt;</span></div>
+                        <div class="code-line"><span class="tag">&lt;title&gt;</span><span class="text">Learning HTML</span><span class="tag">&lt;/title&gt;</span></div>
+                        <div class="code-line"><span class="tag">&lt;/head&gt;</span></div>
+                        <div class="code-line"><span class="tag">&lt;body&gt;</span></div>
+                            <div class="code-line"><span class="tag">&lt;h1&gt;</span><span class="text">สวัสดีนักพัฒนาเว็บไซต์ทุกคน</span><span class="tag">&lt;/h1&gt;</span></div>
+                            <div class="code-line"><span class="tag">&lt;p&gt;</span><span class="text">ยินดีต้อนรับสู่เว็บไซต์สำหรับนักพัฒนาด้วย HTML</span><span class="tag">&lt;/p&gt;</span></div>
+                            <div class="code-line"><span class="tag">&lt;/body&gt;</span></div>
+                        <div class="code-line"><span class="tag">&lt;/html&gt;</span><span class="cursor"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <h2 id="Creating Links" class="h2main">
-                        <a href="w_06_01_link-image.html" class="link-page">Create Link</a>
-                </h2>
-                <pre>
-workshop
-HTML links are defined with the <a> tag...
-- &lt;a href="url" target=""&gt;Link text&lt;/a&gt;
-- The href attribute specifies the URL of the page the link goes to
-- The target attribute specifies where to open the linked document
-- _self: Open the linked document in the same window/tab
-- _blank: Open the linked document in a new window/tab
-- _parent: Open the linked document in the parent frame
-- _top: Open the linked document in the full body of the window
-- The link text is the visible part of the link
-- Anchor links:
-- Use the href attribute with the # symbol to link to a specific part of the page
-- Use the id attribute to define the section to link to
-- Example: &lt;a href="#section"&gt;Go to Section&lt;/a&gt;
-- Example: &lt;h3 id="section"&gt;This is the Section&lt;/h3&gt;
-- Email links:
-- Use the mailto: prefix to create an email link
-- Example: &lt;a href="mailto:support@example.com">email us&lt;/a&gt;
-- Download links:
-- Use the download attribute to create a download link
-- Example: &lt;a href="file.txt" download&gt;Download Text File&lt;/a&gt;</pre>
+        <section class="learning-content">
+            <div class="head-learning">
+                <h1>สิ่งที่คุณควรเรียนรู้ในการเขียน HTML</h1>
+                <p>เนื้อหาถูกออกแบบมาให้เข้าใจง่าย เน้นการลงมือปฎิบัติจริงในแต่ละบทเรียน</p>
+            </div>
+            <div class="learning-box">
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="40" 
+                            height="40" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-width="3" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round" 
+                            class="lucide lucide-type-icon lucide-type"
+                            >
+                            <path d="M12 4v16"/>
+                            <path d="M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2"/>
+                            <path d="M9 20h6"/>
+                        </svg>
+                    </div>
+                    <div class="text">
+                        <div class="head-card">
+                            <span>MODULE 1</span>
+                        </div>
+                        <div class="content-card">
+                            <h2>Headings (หัวเรื่อง)</h2>
+                            <p>เรียนรู้การจัดลำดับความสำคัญของเนื้อหาผ่านแท็ก H1 ถึง H6 เพื่อโครงสร้างเว็บที่ถูกต้องและดีต่อ SEO</p>
+                        </div>
+                        <button class="start-btn">
+                            <a href="">Start Learning</a>
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="16" 
+                                height="16" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-width="2" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+                                >
+                                <path d="M5 12h14"/>
+                                <path d="m12 5 7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="40" 
+                            height="40" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-width="5" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round" 
+                            class="lucide lucide-bold-icon lucide-bold"
+                            >
+                            <path d="M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8"/>
+                        </svg>
+                    </div>
+                    <div class="text">
+                        <div class="head-card">
+                            <span>MODULE 2</span>
+                        </div>
+                        <div class="content-card">
+                            <h2>Text Formatting</h2>
+                            <p>การตกแต่งข้อความเบื้องต้น ตัวหนา ตัวเอียง ขีดเส้นใต้ และการจัดย่อหน้า</p>
+                        </div>
+                        <button class="start-btn">
+                            <a href="">Start Learning</a>
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="16" 
+                                height="16" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-width="2" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+                                >
+                                <path d="M5 12h14"/>
+                                <path d="m12 5 7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="40" 
+                            height="40" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-width="3" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round" 
+                            class="lucide lucide-link2-icon lucide-link-2"
+                            >
+                            <path d="M9 17H7A5 5 0 0 1 7 7h2"/>
+                            <path d="M15 7h2a5 5 0 1 1 0 10h-2"/>
+                            <line x1="8" x2="16" y1="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <div class="text">
+                        <div class="head-card">
+                            <span>MODULE 3</span>
+                        </div>
+                        <div class="content-card">
+                            <h2>Links (การเชื่อมโยง)</h2>
+                            <p>สร้างจุดเชื่อมต่อไปยังหน้าเว็บอื่นๆ หรือเว็บไซต์ภายนอกเพื่อสร้างเครือข่ายข้อมูล</p>
+                        </div>
+                        <button class="start-btn">
+                            <a href="">Start Learning</a>
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="16" 
+                                height="16" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-width="2" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+                                >
+                                <path d="M5 12h14"/>
+                                <path d="m12 5 7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            width="40" 
+                            height="40" 
+                            viewBox="0 0 24 24" 
+                            fill="none" stroke="currentColor" 
+                            stroke-width="3" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round" 
+                            class="lucide lucide-image-icon lucide-image"
+                            >
+                            <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+                            <circle cx="9" cy="9" r="2"/>
+                            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                        </svg>
+                    </div>
+                    <div class="text">
+                        <div class="head-card">
+                            <span>MODULE 4</span>
+                        </div>
+                        <div class="content-card">
+                            <h2>Images (รูปภาพ)</h2>
+                            <p>แทรกรูปภาพเพื่อความน่าสนใจ พร้อมเรียนรู้การใช้แอตทริบิวต์ alt เพื่อการเข้าถึง</p>
+                        </div>
+                        <button class="start-btn">
+                            <a href="">Start Learning</a>
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="16" 
+                                height="16" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-width="2" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+                                >
+                                <path d="M5 12h14"/>
+                                <path d="m12 5 7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-                <a href="#Topics" class="btn">Back to Topics</a>
-
-                <h2 id="Lists (Ordered and Unordered)" class="h2main">
-                        Lists (Ordered and Unordered)
-                </h2>
-                <pre>
-workshop
-HTML lists are defined with the &lt;ul&gt;, &lt;ol&gt;, and &lt;li&gt; tags...
-- &lt;ul&gt;: Unordered list
-- &lt;ol&gt;: Ordered list
-- &lt;li&gt;: List item
-- Unordered list:
-- Use the &lt;ul&gt; tag to create an unordered list
-- Use the &lt;li&gt; tag to create each list item
-- Example:
-&lt;ul&gt;
-&lt;li&gt;Coffee&lt;/li&gt;
-&lt;li&gt;Tea&lt;/li&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;/ul&gt;
-- Ordered list:
-- Use the &lt;ol&gt; tag to create an ordered list
-- Use the &lt;li&gt; tag to create each list item
-- Example:
-&lt;ol&gt;
-&lt;li&gt;Coffee&lt;/li&gt;
-&lt;li&gt;Tea&lt;/li&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;/ol&gt;
-- List style types:
-- Use the list-style-type property to define the style of the list
-- Example: &lt;ul style="list-style-type: disc;"&gt;
-- Example: &lt;ul style="list-style-type: circle;"&gt;
-- Example: &lt;ul style="list-style-type: square;"&gt;
-- Example: &lt;ul style="list-style-type: none;"&gt;
-- Example: &lt;ol type="1"&gt;
-- Example: &lt;ol type="A"&gt;
-- Example: &lt;ol type="a"&gt;
-- Example: &lt;ol type="I"&gt;
-- Example: &lt;ol type="i"&gt;
-- Example: &lt;ol type="A" start="3"&gt;
-- Example: &lt;ol type="1" start="3"&gt;
-- Example: &lt;ol style="list-style-type: decimal;"&gt;
-- Example: &lt;ol style="list-style-type: upper-alpha;"&gt;
-- Example: &lt;ol style="list-style-type: lower-alpha;"&gt;
-- Example: &lt;ol style="list-style-type: upper-roman;"&gt;
-- Example: &lt;ol style="list-style-type: lower-roman;"&gt;</pre>
-
-                <a href="#Topics" class="btn">Back to Topics</a>
-
-                <h2 id="Adding Images" class="h2main">
-                        Adding Images
-                </h2>
-                <pre>
-workshop
-HTML images are defined with the &lt;img&gt; tag...
-- &lt;img src="url" alt="description"&gt;
-- The src attribute specifies the URL of the image
-- The alt attribute provides a description of the image
-- The width and height attributes provide the size of the image
-- Example: &lt;img src="image.jpg" alt="description of image"&gt;
-- Example: &lt;img src="image.jpg" alt="description of image" width="300" height="200"&gt;
-- Image alignment:
-- Use the align attribute to specify the alignment of an image
-- Example: &lt;img src="image.jpg" alt="description" align="left"&gt;
-- Example: &lt;img src="image.jpg" alt="description" align="right"&gt;
-- Image border:
-- Use the border attribute to add a border around an image
-- Example: &lt;img src="image.jpg" alt="description" border="1"&gt;
-- Image link:
-- Use the &lt;a&gt; tag to create a link around an image
-- Example: &lt;a href="url"&gt;&lt;img src="image.jpg" alt="description"&gt;&lt;/a&gt;
-- Image gallery:
-- Use the &lt;div&gt; tag to create an image gallery
-- Use the &lt;img&gt; tag to display each image
-- Example:
-&lt;div class="gallery"&gt;
-&lt;img src="image1.jpg" alt="I
-&lt;img src="image1.jpg" alt="Image 1"&gt;
-&lt;img src="image2.jpg" alt="Image 2"&gt;
-&lt;img src="image3.jpg" alt="Image 3"&gt;
-&lt;/div&gt;
-- flex box:
-- Use the display: flex; property to create a flex container
-- Use the gap property to create space between flex items
-- Example:
-.gallery {
-display: flex;
-gap: 10px;
-}
-.gallery img {
-width: 150px;
-height: 150px;
-object-fit: cover;
-}</pre>
-
-                <a href="#Topics" class="btn">Back to Topics</a>
-
-                <h2 id="Creating Tables" class="h2main">
-                        Creating Tables
-                </h2>
-                <pre>
-<p>Workshop 1 Workshop 2
-HTML tables are defined with the &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; tags...</p>
-- &lt;table&gt;: Table
-- &lt;tr&gt;: Table row
-- &lt;th&gt;: Table header
-- &lt;td&gt;: Table data/cell</pre>
-
-                <a href="#Topics" class="btn">Back to Topics</a>
-
-                <h2 id="HTML Forms" class="h2main">
-                        HTML Forms
-                </h2>
-                <pre>
-HTML Forms
-HTML forms are defined with the &lt;form&gt; tag...
-หัวข้อเกี่ยวกับฟอร์ม
-1. โครงสร้างพื้นฐานของฟอร์ม
-- &lt;form>: ใช้เป็นตัวครอบข้อมูลในฟอร์ม
-- action และ method (GET/POST): การกำหนดปลายทางและวิธีส่งข้อมูล
-2. ชนิดของอินพุต (Input Types)
-- &lt;input>: ชนดิ ต่าง ๆ เช่น text, password, email, number,
-radio, checkbox, date, file
-- &lt;textarea>: ช่องข้อความขนาดใหญ่
-- &lt;select> และ &lt;option>: เมนูแบบเลื่อนลง
-- &lt;datalist>: รายการตัวเลือกที่กำหนดไว้ล่วงหน้า
-- &lt;optgroup>: กลุ่มตัวเลือก
-- &lt;fieldset> และ &lt;legend>: กลุ่มข้อมูลที่เกี่ยวข้อง
-3. ปุ่มในฟอร์ม
-- &lt;button>: ปุ่มทั่วไป
-- &lt;input type="submit"> และ &lt;input type="reset">: ปุ่มส่งและล้างข้อมูล
-- &lt;input type="button">: ปุ่มทั่วไป
-- &lt;input type="image">: ปุ่มรูปภาพ
-- &lt;input type="file">: ปุ่มอัพโหลดไฟล์
-4. การจัดการป้ายกำกับ (Labels)
-- &lt;label>: เพื่อเชื่อมกับ &lt;input> (ช่วยเพิ่มการเข้าถึง)
-- for: ระบุ id ของอินพุตที่เกี่ยวข้อง
-5. การตรวจสอบข้อมูล (Validation)
-- คุณสมบัติเช่น required, min, max, pattern
-- การใช ้JavaScript เพื่อทำการตรวจสอบ
-6. ฟอร์มแบบสมัยใหม่ (HTML5)
-- placeholder: ตัวอย่างข้อความในช่องอินพุต
-- autofocus: ใหฟอร์มเริ่มต้นโฟกัส
-7. การส่งฟอร์ม (Form Submission)
-- การส่งข้อมูลไปทางเซิฟเวอร์
-- การใช ้JavaScript (เชน่ onsubmit)
-</pre>
-
-                <a href="#Topics" class="btn">Back to Topics</a>
-
-                <h2 id="Semantic HTML" class="h2main">
-                        Semantic HTML
-                </h2>
-                <pre>
-Semantic HTML elements clearly define the content of a web page...
-- &lt;header&gt;: Defines a header for a document or section
-- &lt;nav&gt;: Defines navigation links
-- &lt;section&gt;: Defines a section in a document
-- &lt;article&gt;: Defines an article
-- &lt;aside&gt;: Defines content aside from the page content
-- &lt;footer&gt;: Defines a footer for a document or section</pre>
-
-                <a href="#Topics" class="btn">Back to Topics</a>
-
-                <hr>
-
-                <a href="https://www.w3schools.com/" class="learn" target="_blank" rel="noopener noreferrer">Learn more
-                        Html & Css</a>
-
-                <hr>
-
-                <footer>
-                        <p>© 2026 My Website. Created by Thanakorn.</p>
-                        <a class="github-link" href="https://github.com/Thanakorn90396851" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github/default.svg"
-                                        alt="GitHub" width="24" height="24" />
-                        </a>
-                </footer>
+    <footer>
+        <div class="main-footer">
+            <h1>Learn HTML</h1>
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
         </div>
-</body>
+        <div class="link-footer">
+            <a href="">About</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Contact</a>
+            <a href="">Resources</a>
+        </div>
+    </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const lines = document.querySelectorAll('.code-line');
+            lines.forEach((line, index) => {
+                line.style.animationDelay = `${index * 250}ms`;
+            });
+        });
+
+        const menuBtn = document.getElementById("menuBtn");
+        const mobileMenu = document.getElementById("mobileMenu");
+
+        menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+        menuBtn.classList.toggle("active");
+
+            if (mobileMenu.classList.contains("active")) {
+                menuBtn.querySelector(".menu-icon").textContent = "✕";
+            } else {
+                menuBtn.querySelector(".menu-icon").textContent = "☰";
+            }
+        });
+    </script>
+</body>
 </html>
